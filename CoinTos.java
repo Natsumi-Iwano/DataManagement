@@ -20,5 +20,9 @@ public class CoinTos {
 			}
 		}
 		System.out.println("Heads: "+head+", Tails: "+tail);
+
+		System.out.println("Heads: "+head+", Tails: "+tail);
+		if(head>=2) System.out.println(str+" won!");
+		else System.out.println(str+" lost.");
 	}
 }
