@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class CoinTos {
 	public static int i;
@@ -7,6 +8,11 @@ public class CoinTos {
 	public static int tail=0;
 
 	public static void main(String[] args) {
+		System.out.println("Who are you?");
+		Scanner scan = new Scanner(System.in);
+		String str = scan.next();
+		System.out.println("Hello, "+str+"!");
+
 		Random rnd = new Random();
 		System.out.println("Tossing a coin...");
 		for(i=1; i<=3; i++) {
